@@ -75,6 +75,22 @@ body {
   }
   
   /*--------------------------------------------------------------
+  # Scrollbar
+  --------------------------------------------------------------*/
+  html::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  html::-webkit-scrollbar-track {
+    background: #542D1C;
+  }
+  
+  html::-webkit-scrollbar-thumb {
+    background: #853c1d;
+    border-radius: 5rem;
+  }
+  
+  /*--------------------------------------------------------------
   # Back to top button
   --------------------------------------------------------------*/
   .back-to-top {
